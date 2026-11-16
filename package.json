@@ -1,0 +1,14 @@
+{
+  "name": "desafio-truco-paulista",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Desafio de testes automatizados em JavaScript para Truco Paulista com duas duplas.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "test:coverage": "node --test --experimental-test-coverage",
+    "demo": "node exemplo.js"
+  }
+}
